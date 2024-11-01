@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Validador de Usuários AD</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Validador de Usuários AD</h1>
+    
+    <div class="file-input">
+      <input type="text" id="filePath" readonly>
+      <button id="browseButton">Procurar</button>
+    </div>
+
+    <div class="results-container">
+      <select id="resultsList" multiple></select>
+    </div>
+
+    <div class="buttons">
+      <button id="validateButton">Validar</button>
+      <button id="exportButton" disabled>Exportar</button>
+    </div>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
